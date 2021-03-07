@@ -1,0 +1,86 @@
+#!/bin/python3
+
+import random as rm
+import sys
+
+print("Password Creator!\n")
+
+if sys.argv == ['./PassWorld2']:
+    print("Enter Some Arguments")
+
+if len(sys.argv) > 3:
+    print("Max 3 arguments!")
+
+for i in sys.argv:
+    for i in i:
+        if i 
+# crange = int(input("Enter passwd character range : "))-1
+
+# charsI = input("Enter characters : ")
+
+# cptlchar = input("Capital Character ?(yes/no): ")
+
+# res = [int(i) for i in charsI.split() if i.isdigit()] 
+
+# def func1(arg1, arg2):
+    # diff = set(arg1).symmetric_difference(arg2)
+    # return ''.join(sorted(diff))
+# chrr = charsI 
+# if cptlchar == "yes" or cptlchar == "y":
+    # for i in charsI:
+        # charsI = charsI + i.upper()
+
+# num1,num2,num3,num4,num5,num6,num7,num8,num9,num0 = 0,0,0,0,0,0,0,0,0,0
+
+# for i in charsI :
+    # if i == "1":
+        # charsI = charsI.replace("1","")
+        # charsI = charsI + "1"
+    # elif i == "2":
+        # charsI = charsI.replace("2","")
+        # charsI = charsI + "2"
+    # elif i == "3":
+        # charsI = charsI.replace("3","")
+        # charsI = charsI + "3"
+    # elif i == "4":
+        # charsI = charsI.replace("4","")
+        # charsI = charsI + "4"
+    # elif i == "5":
+        # charsI = charsI.replace("5","")
+        # charsI = charsI + "5"
+    # elif i == "6":
+        # charsi = charsi.replace("6","")
+        # charsi = charsi + "6"
+    # elif i == "7":
+        # charsi = charsi.replace("7","")
+        # charsi = charsi + "7"
+    # elif i == "8":
+        # charsi = charsi.replace("8","")
+        # charsi = charsi + "8"
+    # elif i == "9":
+        # charsi = charsi.replace("9","")
+        # charsi = charsi + "9"
+    # elif i == "0":
+        # charsi = charsi.replace("0","")
+        # charsi = charsi + "0"
+
+
+
+# chars = []
+
+# for i in charsI:
+    # chars.append(i)
+
+
+# passwd = ""
+# char = ""
+
+# t = 0
+
+# while t <= crange :
+    # char = rm.choice(chars)
+    # passwd = passwd + char
+    # t += 1 
+
+# print(passwd)
+# print(chars)

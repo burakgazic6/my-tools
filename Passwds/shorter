@@ -1,0 +1,39 @@
+#!/bin/python3
+
+import sys
+
+wl = input("Enter the wordlist : ")
+
+with open(wl,"r") as f:
+    content = f.read()
+
+    lineNum = 0
+
+    lines = content.split("\n")
+
+    lines.pop(len(lines)-1)
+
+    lineNum = len(lines)
+
+    nlines = list(set(lines))
+
+    ncontent = ""
+
+    for i in nlines:
+        ncontent = ncontent+ i+"\n"
+
+    lineNum = 0
+
+    nlines = ncontent.split("\n")
+
+    # nlines.pop(len(nlines)-1)
+
+    nlineNum = len(nlines)
+
+with open("output.txt","x") as n:
+    n.write(ncontent)
+
+print("Wordlist Shorter !")
+print(nlines)
+# print("First wordlist password number : "+str(lineNum))
+# print("\nLast wordlist password number : "+str(nlineNum))

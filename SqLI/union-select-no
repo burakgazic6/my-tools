@@ -1,0 +1,26 @@
+#!/bin/python
+
+
+def kill_char(string, n): # n = position of which character you want to remove
+    begin = string[:n]    # from beginning to n (n not included)
+    end = string[n+1:]    # n+1 through end of string
+    return begin + end
+
+
+print("from 0 to y")
+
+y = int(input("y : "))
+
+fix = ""
+
+fix1 = ""
+
+
+i= 1
+
+while i <= y:
+   fix1 = ","+str(i)
+   fix = str(fix) + str(fix1)
+   i+= 1
+
+print(kill_char(fix,0))
